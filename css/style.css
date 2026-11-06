@@ -96,6 +96,8 @@ img {
 
 .hero .content h1 {
     font-size: 55px;
+    font-weight: lighter;
+    font-style: italic;
 }
 
 .hero content p {
@@ -142,13 +144,30 @@ img {
 
 .icons i {
     background-color: #28a745;
-    color:#fff;
-    padding: 2rem;
-    text-align: center;
+    padding: 35px;
+    height: 40px;
     border-radius: 50%;
-    /* margin-bottom: 15px; */
-
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    font-size: 2.2rem;
+    color:#fff;
+    margin-bottom: 5px;
 }
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
 
 
 
