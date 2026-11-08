@@ -31,9 +31,14 @@
 }
 
 /* Flex Columns */
+.flex-columns .flex-reverse {
+    flex-direction: row-reverse;
+    
+}
+
+
 .flex-columns .row {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
 }
