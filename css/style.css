@@ -162,6 +162,9 @@ img {
     align-items: center;
 }
 
+.cases img:hover {
+    opacity: 0.7;
+}
 
 
 
