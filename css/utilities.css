@@ -115,6 +115,7 @@
 
 .flex-grid .column {
     flex: 25%;
+    padding-right: 5px;
 }
 
 
