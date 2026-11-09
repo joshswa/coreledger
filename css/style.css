@@ -210,21 +210,52 @@ img {
     align-items: center;
     align-self: center;
     justify-content: center;
-    align-content: ;
-    height: 200px;
+   
+    height: 110px;
 }
 
-footer .social a {
+footer a {   
+    margin-top: 14px; 
     color: #fff;
-    padding: 0 30px;
 }
 
 .footer .social {
+    display: flex;
+    justify-content: center;
     width: 100%;
+    column-gap: 20px;
 }
 
+.footer a:hover {
+    color: #28a745;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .navbar {
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        justify-content: center;
+        height: 120px;
+        padding: 20px;
+    }
+    h1 {
+        padding: 10px 0;
+    }
+
+    .navbar a {
+        padding: 10px 10px;
+        margin: 0 3px;
+        font-size: large;
+    }
+
+    .flex-items, .flex-columns .row{
+        flex-direction: column;
+    }
 
 
+}
 
 
 
