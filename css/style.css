@@ -203,10 +203,25 @@ img {
     outline-color: #28a745;
 }
 
+/* Footer */
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    align-content: ;
+    height: 200px;
+}
 
+footer .social a {
+    color: #fff;
+    padding: 0 30px;
+}
 
-
-
+.footer .social {
+    width: 100%;
+}
 
 
 
