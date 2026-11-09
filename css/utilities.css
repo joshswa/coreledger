@@ -1,6 +1,7 @@
 .btn-dark, .bg-dark {
     background: #333;
     color: #fff;
+    border: 1px solid #585656;
 }
 
 .btn-light, .bg-light {
@@ -17,6 +18,8 @@
     background: #0284d0;
     color: #fff;
 }
+
+
 
 /* Flex Items */
 .flex-items {
