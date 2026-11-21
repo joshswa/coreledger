@@ -73,6 +73,7 @@ img {
 }
 
 .navbar a:hover {
+    color: #28a743;
     border-bottom: #28a745 2px solid;
 }
 
